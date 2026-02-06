@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Center Flex</title>
+    <style>
+        .containner{
+            display: flex;
+            justify-content: center; /* horizontally center */
+            align-items:center; /*Vertically center*/
+            background-color: aquamarine;
+            height: 700px;
+        }
+        .box{
+            background-color: burlywood;
+            font-size: 4em;
+            height: 200px;
+            width: 200px;
+        }
+    </style>
+        <link rel="stylesheet" href="./Styles/nav.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Blogs.html">Blogs</a></li>
+                <!-- li*4>a -->
+                <li><a href="center.html">Center</a></li>
+                <li><a href="Flex.html">Flex</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="auto.html">Auto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="containner">
+        <div class="box">
+            <p>box</p>
+        </div>
+    </div>
+</body>
+</html>
